@@ -4,7 +4,10 @@ from shared.models import BaseModel
 
 
 class User(AbstractUser):
-    picture = models.ImageField('Imagem de usuário', blank=True, null=True)
+    picture = models.ImageField('Imagem de usuário',
+                                upload_to='users/pictures',
+                                blank=True,
+                                null=True)
 
     class Meta:
         verbose_name = 'Usuário'
