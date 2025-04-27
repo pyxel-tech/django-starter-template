@@ -1,0 +1,9 @@
+<ul>
+    <li>{{ user.username }}</li>
+    <li>
+        <form action="{% url "users:logout" %}" method="post">
+            {% csrf_token %}
+            <button type="submit">Sair</button>
+        </form>
+    </li>
+</ul>
