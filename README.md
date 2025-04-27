@@ -21,9 +21,9 @@ python manage.py runserver
 - [x] Sistema de autenticação
 - [x] Signal para criar um objeto profile para o usuário
 - [x] Utilizar o Django tooltips quando ENV == dev
+- [ ] Controle de logs
 - [ ] Estrutura de testes unitários com pytest
 - [ ] Multi-idiomas
 - [ ] DRF para implementação de APIs Rest
 - [ ] DRF Spetacular para documentação de APIs com Swagger
-- [ ] Controle de logs
 - [ ] Plataforma de pagamento Stripe
